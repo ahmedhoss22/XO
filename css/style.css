@@ -13,9 +13,9 @@ body{
     position: relative;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3 , 200px);
-    grid-template-rows: repeat(4 , 200px);
-    width: 600px;
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows: repeat(4 , 150px);
+    width: 450px;
     min-width: 300px;
     color: #fff;
     transition: .5s;
@@ -29,7 +29,7 @@ body{
     text-align: center;
     align-self: center;
     box-sizing: border-box;
-    font-size: 65px;
+    font-size: 50px;
     min-width: 300px;
     background-color: #154360;
     padding: 30px 0;
@@ -39,11 +39,11 @@ body{
 }
 .style1{
 background-color: #239DDA;
-line-height: 200px;
+line-height: 150px;
 color: #F5B041;
 border-radius: 4px;
 text-align: center;
-font-size: 140px;
+font-size: 100px;
 cursor: pointer;
 border-radius: 5px;
 }
@@ -51,10 +51,10 @@ border-radius: 5px;
     background-color:#17678F;
      color: #F5B041;
     border-radius: 3px;
-    font-size: 140px;
+    font-size: 100px;
     text-align: center;
     border-radius: 5px;
-    line-height: 200px;
+    line-height: 150px;
 
     cursor: pointer;
 }
