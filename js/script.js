@@ -101,8 +101,18 @@ function multiGame(id){
 
 
 function end(num1,num2,num3){
+    if(gameSwitch=='multi'){
     screen.innerHTML=` ${arr[num1]} is Winner`;   
-
+    } else if(gameSwitch=='single'){
+        let ele=document.getElementById(num1);
+                if(ele.innerHTML=='X'){
+                    screen.innerHTML='You won '
+                }
+               else if(ele.innerHTML=='O'){
+                    screen.innerHTML='You lose ';
+                }
+        }
+   
     document.getElementById(num1).style.background = '#1B2631';
     document.getElementById(num2).style.background = '#1B2631';
     document.getElementById(num3).style.background = '#1B2631';
@@ -111,7 +121,7 @@ function end(num1,num2,num3){
         screen.innerHTML+='.'
     },1000);
     setTimeout(function(){location.reload()},3500);
-}
+} 
 
 
 
